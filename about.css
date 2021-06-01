@@ -46,7 +46,6 @@ header {
     width: 300px;
     height: 400px;
     margin: 30px;
-    margin-left: 150px;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 20px 25px 0 rgb(0, 0, 0);
     border-radius: 15px;
 }
@@ -149,7 +148,6 @@ header {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    margin-left: 50px;
 }
 
 .sction2 .skills-content.col {
@@ -157,20 +155,23 @@ header {
 }
 
 .ayush {
-    display: flex;
-    flex-wrap: nowrap;
-    width: 400px;
+    display: block;
+
 }
 
 .ayush .ayu {
-
-    width: 500px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     border-radius: 15px;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 20px 25px 0 rgb(0, 0, 0);
     transition: transform 6s;
     transform-style: preserve-3d;
 }
+@media (max-width: 500px) {
+    .ayush .ayu {
+      flex: 100%;
+    }
+  }
 
 .align-items-center {
     align-items: center;
