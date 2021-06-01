@@ -1,0 +1,275 @@
+body {
+    font: 400 1em/1.5 "Neuton";
+    background-image: url(https://i.pinimg.com/originals/f6/15/74/f615740d8ec75ad36e322ecd9da8b129.gif);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*--------------------------navbar---------------------------*/
+header {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.nav-item:hover {
+    font-weight: 700;
+    font-size: large;
+}
+
+header {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.margin {
+
+    margin: 5px;
+}
+
+.section {
+    background-color: rgb(215, 250, 247);
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: x-large;
+
+}
+
+.img {
+    width: 300px;
+    height: 400px;
+    margin: 30px;
+    margin-left: 150px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 20px 25px 0 rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+
+
+.mycol {
+    margin-right: 30px;
+}
+
+.mycol .text {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+    margin: 30px;
+}
+
+.mycol .text h4 {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0 0 5px;
+    color: #000000;
+}
+
+.mycol .text h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 15px;
+    color: #000000;
+}
+
+.mycol .text h6 span {
+    color: #bd9309de;
+}
+
+.mycol .text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #5f5d5d;
+    margin: 0 0 20px;
+}
+
+.mycol .text .info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.mycol .text .info .list {
+    flex: 0 0 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #6e6c53;
+    padding-bottom: 10px;
+}
+
+.mycol .text .info .list label {
+    padding-right: 10px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.mycol .text .info .list p {
+    margin: 0;
+}
+
+.mycol .text .social-links {
+    padding-top: 30px;
+}
+
+
+.mycol .text .social-links a:hover {
+    background-color: transparent;
+}
+
+.mycol .text .social-links a .fa {
+    color: #ffffff;
+    font-size: 12px;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.mycol .text .social-links a:hover .fa {
+    color: #000000;
+}
+
+/* --------------skills----------------- */
+
+.sction2 {
+    padding: 100px 15px;
+    background-color: rgba(122, 195, 243, 0.938);
+    color: rgba(3, 3, 2, 0.582);
+}
+
+.ay {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.sction2 .skills-content.col {
+    width: 400px;
+}
+
+.ayush {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 400px;
+}
+
+.ayush .ayu {
+
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 20px 25px 0 rgb(0, 0, 0);
+    transition: transform 6s;
+    transform-style: preserve-3d;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.skills-content .section-title p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #fdfeff;
+    margin: 15px 0 0;
+}
+
+.skills-content .skill-box {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+}
+
+.skills-content .skill-box h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0 0 8px;
+}
+
+.skills-content .skill-box .skill-bar {
+    height: 5px;
+    background-color: #eeeeee;
+    position: relative;
+}
+
+.skills-content .skill-box .skill-bar .skill-bar-in {
+    background-color: #fefa01;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+.skills-content .skill-box .skill-bar .skill-bar-in span {
+    font-size: 16px;
+    font-weight: 400;
+    position: absolute;
+    right: 0;
+    top: -30px;
+}
+
+/*--------------------------footer----------------------------*/
+footer {
+    padding: 70px 15px;
+    background-color: #0c0c17;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer .logo {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 900;
+}
+
+footer .social {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer .social a {
+    color: #999999;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 12px;
+    transition: all .5s ease;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #fff;
+    font-size: xx-large;
+}
+
+/*--------------------------copyright----------------------------*/
+.copyright {
+    background-color: #0c0c17;
+    border-top: 1px solid #363617;
+    padding: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.copyright p {
+    color: #838383;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
