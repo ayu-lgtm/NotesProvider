@@ -41,7 +41,7 @@ function showNotes() {
     if (notesObj.length != 0) {
         notesElm.innerHTML = html;
     } else {
-        notesElm.innerHTML = 'Nothing to show in comment section.';
+        notesElm.innerHTML = `<h5 style='color:white'>Nothing to show in comment section.<h5>`;
     }
 }
 

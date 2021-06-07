@@ -156,7 +156,6 @@ header {
 
 .ayush {
     display: block;
-
 }
 
 .ayush .ayu {
@@ -167,11 +166,7 @@ header {
     transition: transform 6s;
     transform-style: preserve-3d;
 }
-@media (max-width: 500px) {
-    .ayush .ayu {
-      flex: 100%;
-    }
-  }
+
 
 .align-items-center {
     align-items: center;

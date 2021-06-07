@@ -100,7 +100,7 @@ header {
     text-shadow: 0 0 80px rgba(253, 245, 245, 0.966);
     /* Clip Background Image */
 
-    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSurggbEP-fj4iSa-c5hT9OHnNk28UhFvjXZw&usqp=CAU);
+    background: url(https://live.staticflickr.com/49/129440786_62e429791e_z.jpg);
     -webkit-background-clip: text;
     background-clip: text;
 
@@ -485,4 +485,67 @@ header {
 #bot:hover {
     background-color: rgb(247, 240, 240);
     color: rgb(14, 13, 13);
+}
+/* ----------------message----------------------- */
+
+.message-text{
+    background-color: #0c0017;
+    padding: 40px 15px;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.message-text .text{
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+}
+
+.message-text .text h2{
+    font-size: 25px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    line-height: 35px;
+}
+
+.message-text .button{
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    text-align: right;
+}
+
+.message-text .button a{
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #ffffff;
+    padding: 12px 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all .5s ease;
+    background-color: transparent;
+}
+
+.message-text .button a:hover{
+    background-color: #fff;
+    color: #000000;
+}
+#download{
+    border-radius: 5px;
+    justify-content: space-around;
+    text-decoration: none;
+    font-weight: 700;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#down{
+    
+    border-radius: 5px;
+    justify-content: space-around;
+    text-decoration: none;
+    font-weight: 700;
+    color: #9df312;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
