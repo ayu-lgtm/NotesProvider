@@ -1,0 +1,81 @@
+/*--------------------------navbar---------------------------*/
+header {
+
+    font-weight: 600;
+    font-size: larger;
+}
+
+.nav-item:hover {
+    font-weight: 700;
+    font-size: large;
+}
+
+.section {
+
+
+    background-image: url(http://adwallpapers.xyz/uploads/posts/147151-little-nightmares-4k-ultra-hd-wallpaper.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*--------------------------footer----------------------------*/
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 50px 15px;
+    background-color: #0c0c17;
+
+}
+
+footer .logo {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    font-size: 45px;
+    color: #fff;
+    font-weight: 900;
+}
+
+footer .social {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+footer .social a {
+    color: #fafafa;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 12px;
+    transition: all .5s ease;
+    text-decoration: none;
+}
+
+footer .social a:hover {
+    color: #fff;
+    font-size: xx-large;
+}
+
+/*--------------------------copyright----------------------------*/
+.copyright {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #0c0c17;
+    border-top: 1px solid #363617;
+    padding: 15px;
+
+}
+
+.copyright p {
+    color: #838383;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+}
